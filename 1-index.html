@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EGYPTIAN CHEMICAL INDUSTRIES — KIMA — Redesign Concept (Unsolicited)</title>
+<style>
+:root{--green:#0f6b3a;--green2:#7fc98f;--ink:#0e2418;--bg:#f4f8f5;--card:#fff;--line:#d9e7dd}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,Arial,sans-serif}
+body{background:var(--bg);color:var(--ink);line-height:1.7}
+.notice{background:#fff7e0;border-bottom:2px solid #d8b545;padding:10px 18px;font-size:14px;text-align:center}
+header{position:sticky;top:0;background:var(--ink);color:#fff;z-index:10;box-shadow:0 2px 12px rgba(0,0,0,.25)}
+.bar{max-width:1150px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:14px 20px;flex-wrap:wrap;gap:10px}
+.brand{font-size:22px;font-weight:700}.brand span{color:var(--green2);display:block;font-size:12px;font-weight:400}
+nav a{color:#dcebe1;text-decoration:none;margin:0 10px;font-size:15px}nav a:hover{color:var(--green2)}
+.lang{background:var(--green);color:#fff;border:0;padding:8px 16px;border-radius:20px;cursor:pointer;font-weight:700}
+.hero{background:linear-gradient(150deg,#0e2418,#14603a);color:#fff;padding:90px 20px;text-align:center}
+.hero h1{font-size:clamp(28px,5vw,44px);margin-bottom:14px}
+.hero p{max-width:780px;margin:0 auto 26px;color:#cfe4d6;font-size:17px}
+.btn{display:inline-block;background:var(--green);color:#fff;padding:13px 30px;border-radius:30px;text-decoration:none;font-weight:700;margin:4px}
+.btn.ghost{background:transparent;border:2px solid var(--green2);color:#fff}
+section{max-width:1150px;margin:auto;padding:64px 20px}
+h2{font-size:30px;margin-bottom:8px}.sub{color:#5c7166;margin-bottom:34px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px;box-shadow:0 3px 10px rgba(14,36,24,.05)}
+.card h3{margin-bottom:8px;font-size:19px}
+.formula{display:inline-block;background:#e2f3e8;color:var(--green);font-size:12px;padding:3px 10px;border-radius:12px;margin-bottom:10px;font-family:Consolas,monospace}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:18px;text-align:center}
+.stat b{font-size:38px;color:var(--green);display:block}
+.strip{background:var(--ink);color:#fff}
+.strip .card{background:#173726;border-color:#28543a;color:#dcebe1}
+footer{background:#08150d;color:#8fae9a;padding:40px 20px;text-align:center;font-size:14px}
+footer a{color:var(--green2);text-decoration:none}
+[lang-ar]{display:none !important}
+body.ar [lang-ar]{display:revert !important}body.ar [lang-en]{display:none !important}
+body.ar{direction:rtl}
+</style>
+</head>
+<body>
+<div class="notice">
+<span lang-en>Unsolicited redesign concept — not affiliated with or endorsed by Egyptian Chemical Industries (KIMA). Built by Aly Zopair as a capability demonstration.</span>
+<span lang-ar>نموذج إعادة تصميم غير رسمي (مبادرة شخصية) — غير تابع للشركة المصرية للصناعات الكيماوية (كيما) ولا معتمد منها. أُعد بواسطة علي زوبير لعرض إمكانيات التطوير.</span>
+</div>
+<header><div class="bar">
+<div class="brand"><span lang-en>KIMA — Egyptian Chemical Industries</span><span lang-ar>كيما — المصرية للصناعات الكيماوية</span><span lang-en>كيما · أسوان</span><span lang-ar>KIMA · Aswan</span></div>
+<nav>
+<a href="#about" lang-en>About</a><a href="#about" lang-ar>عن الشركة</a>
+<a href="#products" lang-en>Products</a><a href="#products" lang-ar>المنتجات</a>
+<a href="#kima2" lang-en>KIMA 2</a><a href="#kima2" lang-ar>مشروع كيما 2</a>
+<a href="#investors" lang-en>Investors</a><a href="#investors" lang-ar>المستثمرون</a>
+<a href="#contact" lang-en>Contact</a><a href="#contact" lang-ar>اتصل بنا</a>
+</nav>
+<button class="lang" onclick="document.body.classList.toggle('ar')">ع / EN</button>
+</div></header>
+<div class="hero">
+<h1 lang-en>Powering Egyptian agriculture and industry since 1956</h1>
+<h1 lang-ar>نخدم الزراعة والصناعة المصرية منذ 1956</h1>
+<p lang-en>Egyptian Chemical Industries (KIMA) in Aswan — nitrogenous fertilizers and chemical materials, established to harness surplus hydroelectric power from the Aswan Dam. An affiliate of the Chemical Industries Holding Company.</p>
+<p lang-ar>الشركة المصرية للصناعات الكيماوية (كيما) بأسوان — أسمدة أزوتية ومواد كيماوية، أُنشئت لاستغلال فائض الطاقة الكهربائية من محطة السد العالي. تابعة للشركة القابضة للصناعات الكيماوية.</p>
+<a class="btn" href="#products" lang-en>Our products</a><a class="btn" href="#products" lang-ar>منتجاتنا</a>
+<a class="btn ghost" href="#contact" lang-en>Request a quote</a><a class="btn ghost" href="#contact" lang-ar>اطلب عرض سعر</a>
+</div>
+<section id="about">
+<h2 lang-en>Built on the Nile's energy</h2><h2 lang-ar>وُلدت من طاقة النيل</h2>
+<p class="sub" lang-en>Established by Council of Ministers decree on 22 March 1956, with founding capital of LE 16 million.</p>
+<p class="sub" lang-ar>تأسست بقرار مجلس الوزراء في 22 مارس 1956 برأس مال 16 مليون جنيه.</p>
+<div class="stats">
+<div class="stat"><b>1956</b><span lang-en>Established</span><span lang-ar>سنة التأسيس</span></div>
+<div class="stat"><b>280 MW</b><span lang-en>Aswan Dam station capacity it was built to use</span><span lang-ar>قدرة محطة أسوان التي أُنشئت لاستغلالها</span></div>
+<div class="stat"><b>55%</b><span lang-en>Chemical Industries Holding Co. stake</span><span lang-ar>حصة القابضة للصناعات الكيماوية</span></div>
+<div class="stat"><b>Aswan</b><span lang-en>Headquarters &amp; plants</span><span lang-ar>المقر والمصانع</span></div>
+</div>
+</section>
+<section id="products">
+<h2 lang-en>Our products</h2><h2 lang-ar>منتجاتنا</h2>
+<p class="sub" lang-en>Nitrogenous fertilizers and chemical materials for agriculture and industry.</p>
+<p class="sub" lang-ar>أسمدة أزوتية ومواد كيماوية للزراعة والصناعة.</p>
+<div class="grid">
+<div class="card"><span class="formula">CH4N2O</span><h3 lang-en>Urea fertilizer</h3><h3 lang-ar>سماد اليوريا</h3><p lang-en>46.5% total nitrogen. High-purity white granules, treated as an antistatic inhibitor, per Egyptian standard ES 1594/2015.</p><p lang-ar>نيتروجين كلي 46.5%. حبيبات بيضاء عالية النقاء، مطابقة للمواصفة المصرية 1594/2015.</p></div>
+<div class="card"><span class="formula">NH3</span><h3 lang-en>Liquid ammonia</h3><h3 lang-ar>أمونيا سائلة</h3><p lang-en>High-purity liquid ammonia for industrial applications.</p><p lang-ar>أمونيا سائلة عالية النقاء للتطبيقات الصناعية.</p></div>
+<div class="card"><span class="formula">NH4NO3</span><h3 lang-en>High-density ammonium nitrate</h3><h3 lang-ar>نترات أمونيوم مرتفعة الكثافة</h3><p lang-en>Dense white prills, suited for nitrous oxide production for medical and food purposes, per ES 1655/2005.</p><p lang-ar>حبيبات بيضاء كثيفة، مناسبة لإنتاج غاز الضحك للأغراض الطبية والغذائية، وفق المواصفة 1655/2005.</p></div>
+<div class="card"><span class="formula">NH4NO3</span><h3 lang-en>Porous prilled ammonium nitrate</h3><h3 lang-ar>نترات أمونيوم مسامية</h3><p lang-en>Porous prilled grade for industrial use.</p><p lang-ar>درجة مسامية للاستخدام الصناعي.</p></div>
+</div>
+</section>
+<section id="kima2" class="strip">
+<h2 lang-en>KIMA 2 expansion</h2><h2 lang-ar>مشروع كيما 2</h2>
+<p class="sub" style="color:#8fae9a" lang-en>A modern expansion project extending KIMA's fertilizer capacity in Aswan — presented with clear milestones, budgets and status instead of a static paragraph.</p>
+<p class="sub" style="color:#8fae9a" lang-ar>مشروع توسعة حديث لقدرات كيما في أسوان — معروض بمراحل وميزانيات وحالة واضحة بدل فقرة ثابتة.</p>
+<div class="grid">
+<div class="card"><h3 lang-en>Capacity growth</h3><h3 lang-ar>زيادة الطاقة</h3></div>
+<div class="card"><h3 lang-en>Project timeline</h3><h3 lang-ar>الجدول الزمني</h3></div>
+<div class="card"><h3 lang-en>Environment &amp; safety</h3><h3 lang-ar>البيئة والسلامة</h3></div>
+</div>
+</section>
+<section id="investors">
+<h2 lang-en>Investor relations</h2><h2 lang-ar>علاقات المستثمرين</h2>
+<p class="sub" lang-en>Shareholding structure, financial statements and disclosures — in a clean, searchable format.</p>
+<p class="sub" lang-ar>هيكل المساهمة والقوائم المالية والإفصاحات — بشكل واضح وقابل للبحث.</p>
+<div class="grid">
+<div class="card"><h3 lang-en>Ownership</h3><h3 lang-ar>هيكل الملكية</h3><p lang-en>Chemical Industries Holding Co. 55% · authorities, banks and insurance companies 39% · individuals 6%.</p><p lang-ar>القابضة للصناعات الكيماوية 55% · الهيئات والبنوك وشركات التأمين 39% · أفراد 6%.</p></div>
+<div class="card"><h3 lang-en>Financial statements</h3><h3 lang-ar>القوائم المالية</h3><p lang-en>Annual reports, downloadable and archived.</p><p lang-ar>تقارير سنوية قابلة للتحميل ومؤرشفة.</p></div>
+<div class="card"><h3 lang-en>Tenders &amp; careers</h3><h3 lang-ar>مناقصات ووظائف</h3><p lang-en>Open tenders and vacancies with online submission.</p><p lang-ar>مناقصات ووظائف شاغرة بتقديم إلكتروني.</p></div>
+</div>
+</section>
+<section id="contact">
+<h2 lang-en>Contact</h2><h2 lang-ar>اتصل بنا</h2>
+<div class="grid">
+<div class="card"><h3 lang-en>Headquarters</h3><h3 lang-ar>المقر</h3><p lang-en>Aswan, Arab Republic of Egypt.</p><p lang-ar>أسوان، جمهورية مصر العربية.</p></div>
+<div class="card"><h3 lang-en>Website</h3><h3 lang-ar>الموقع</h3><p>www.kimaegypt.com</p></div>
+</div>
+</section>
+<footer>
+<p><span lang-en>Unofficial concept demo by </span><span lang-ar>نموذج مفاهيمي غير رسمي أعده </span><a href="https://zopair.github.io/Zubair-Engineering-Lab/">Aly Zopair — Zubair Engineering Lab</a> · 2026</p>
+</footer>
+</body>
+</html>
